@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #294C6C 0%, #E1E6F2 100%);
+    background-repeat: no-repeat;
+    height: 2700px;
+}
+header {
+    background-color: #F0CCC6;
+    height: 180px;
+}
+
+.container-grid {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%; /*VAI DEIXAR A DIV DA MESMA ALTURA DO HEADER, AJUSTANDO SEMPRE COM A ALTERAÇÃO DE TAMANHO, 100% DA ALTURA DO ELEMENTO PAI DELE*/
+
+}
+
+.cabecalho h1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.menu {
+    width: 650px;            /*DEFINE UMA ALARGURA PARA O MENU */
+    display: flex;  
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.menu a {
+    color: black;        /* TROCA A COR DA TELA */
+    text-decoration: none;  /*CANCELA QUALQUER DECORAÇÃO QUE A CELULA TINHA ANTES */
+    font-size: 20px;          /*ALTERA O TAMNAHO DAS LETARS EM PIXELS */
+    text-transform: uppercase; /*VAI DEIXAR TODAS AS LETRAS MAIUSCULAS */
+    font-family: 'Red Hat Mono', monospace;  /* TRAS A FAMILIA DA FONTE UTILIZADA */
+}
+
+main {
+ height: 2300px;
+
+}
+
+.banner-principal img{
+    width: 100%;
+    
+}
+
+.barra-pesquisa {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.barra-pesquisa input{
+    width: 590px;
+    height: 30px;
+}
+   
+.barra-pesquisa input, button{
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.legenda{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Red Hat Mono', monospace;
+    
+}
+.banner-oferta {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.montepc {
+    background-color: #F0CCC6;
+    height: 150px;
+    
+}
+    
+.conteudo-banner02 {
+    font-size: 38px;
+    font-family: 'Red Hat Mono', monospace;
+    justify-content: center;
+}
+
+.imagens img {
+    justify-items: center;
+    padding-top: 50px;
+}
+
+footer {
+   
+    
+}
+
+.topicos-informacoes {
+    display: flex;
+
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    color: #424141;
+    font-size: 15px;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.selos img {
+    width: 10px;
+    height: 10px;
+}
