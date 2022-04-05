@@ -17,10 +17,6 @@ header {
     height: 180px;
 }
 
-.container-grid {
-    width: 1350px;
-    margin: 0 auto;
-}
 
 .cabecalho {
     display: flex;
@@ -58,7 +54,7 @@ main {
 
 .banner-principal img{
     width: 100%;
-    
+    display: block;
 }
 
 .barra-pesquisa {
@@ -83,16 +79,21 @@ main {
     justify-content: center;
     color: white;
     font-size: 20px;
-    padding: 10px;
+    padding-top: 30px;
     font-family: 'Red Hat Mono', monospace;
     
 }
 .banner-oferta {
-    display: flex;
+    
     justify-content: space-between;
     padding: 30px;
 }
 
+.banner-oferta img {
+    
+    justify-content: center;
+    padding: 40px;
+}
 
 .montepc {
     background-color: #F0CCC6;
@@ -101,14 +102,16 @@ main {
 }
     
 .conteudo-banner02 {
-    font-size: 38px;
+    font-size: 12px;
     font-family: 'Red Hat Mono', monospace;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .imagens img {
-    justify-items: center;
+    align-items: center;
     padding-top: 50px;
+    padding-left: 50px;
 }
 
 footer {
@@ -123,6 +126,7 @@ footer {
 
 .informacoes {
     display: flex;
+   padding: 5px;
     justify-content: space-between;
     color: #424141;
     font-size: 15px;
