@@ -32,11 +32,17 @@ header {
     font-family: 'Red Hat Mono', monospace;
 }
 
+.cabecalho a {
+  
+}
+
 .menu {
     width: 650px;            /*DEFINE UMA ALARGURA PARA O MENU */
     display: flex;  
     justify-content: space-around;
     align-items: flex-end;
+    
+
 }
 
 .menu a {
@@ -45,10 +51,14 @@ header {
     font-size: 20px;          /*ALTERA O TAMNAHO DAS LETARS EM PIXELS */
     text-transform: uppercase; /*VAI DEIXAR TODAS AS LETRAS MAIUSCULAS */
     font-family: 'Red Hat Mono', monospace;  /* TRAS A FAMILIA DA FONTE UTILIZADA */
+
 }
 
+
+
 main {
- height: 2300px;
+    right: 100%;
+    height: 2300px;
 
 }
 
@@ -72,6 +82,7 @@ main {
     background-color: white;
     border: none;
     border-radius: 2px;
+    color: black;
 }
 
 .legenda{
@@ -95,9 +106,12 @@ main {
     padding: 40px;
 }
 
+
 .montepc {
     background-color: #F0CCC6;
+
     height: 150px;
+    right: 100%;
     
 }
     
@@ -106,6 +120,7 @@ main {
     font-family: 'Red Hat Mono', monospace;
     justify-content: center;
     padding-bottom: 50px;
+
 }
 
 .imagens img {
@@ -120,20 +135,50 @@ footer {
 }
 
 .topicos-informacoes {
-    display: flex;
+    
 
 }
 
 .informacoes {
     display: flex;
-   padding: 5px;
+    height: 100%;
+    padding: 5px;
     justify-content: space-between;
     color: #424141;
     font-size: 15px;
     font-family: 'Red Hat Mono', monospace;
 }
 
+.topicos-informacoes ul {
+    
+}
+
 .selos img {
     width: 10px;
     height: 10px;
+}
+
+@media screen and (max-width : 1100px){ 
+    .cabecalho{
+        position: relative;
+
+    }
+
+    .menu {
+        height: 200px;
+        display: none;
+        flex-direction: column;
+        background-color: #424141;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        right: 100px;
+    }
+
+}
+
+@media screen and (min-width : 1100px) {
+    #fas{
+        display: none;
+    }
 }

@@ -79,3 +79,8 @@ main {
     display: flex;
     font-size: 10px;
 }
+
+.cadastro button {
+    right: 10%;
+    height: 10%;
+}
