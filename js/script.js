@@ -1,3 +1,9 @@
+$(document).ready(function() {
+    $("#barras").elick(function)
+})
+
+
+
 function mostrarMenu() {
     let menu = document.getElementById("menu")
 

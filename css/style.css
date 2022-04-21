@@ -14,7 +14,7 @@ body{
 }
 header {
     background-color: #F0CCC6;
-    height: 180px;
+    height: 80px;
 }
 
 
@@ -53,6 +53,8 @@ header {
     font-family: 'Red Hat Mono', monospace;  /* TRAS A FAMILIA DA FONTE UTILIZADA */
 
 }
+
+
 
 
 
@@ -135,6 +137,7 @@ footer {
 }
 
 .topicos-informacoes {
+    
     
 
 }
